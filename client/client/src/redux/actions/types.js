@@ -1,0 +1,11 @@
+export const SEARCH_NAME = "SEARCH_NAME";
+export const SEARCH_ID = "SEARCH_ID";
+export const FILTER_TYPE = "FILTER_TYPE";
+export const FILTER_ATTACK = "FILTER_ATTACK";
+export const FILTER_CREATE = "FILTER_CREATE";
+export const SORT = "SORT";
+export const GET_POKEMONS = "GET_POKEMONS";
+export const GET_DETAIL = "GET_DETAIL";
+export const GET_TYPE = "GET_TYPE";
+export const ADD_POKEMON = "ADD_POKEMON"
+export const RESTORE = "RESTORE";

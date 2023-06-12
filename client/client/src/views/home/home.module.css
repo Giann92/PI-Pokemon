@@ -1,0 +1,19 @@
+.cardList {
+    width: 80vw;
+    margin-bottom: 30px;
+    padding: 40px;
+    display:contents;
+    grid-template-columns: 12fr 14fr 15fr 19fr;
+    grid-gap: 70px;
+  }
+
+  div select {
+    margin-left: 50px;
+    border-radius: 4px;
+    padding: 7px;
+    margin-top: 10px;
+    border: none !important;
+    background-color: rgb(228, 217, 217);
+    color: #5d614f;
+    outline: none;
+}

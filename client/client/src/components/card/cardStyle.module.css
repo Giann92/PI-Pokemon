@@ -1,0 +1,59 @@
+.cardContainer {
+    background: rgba(90, 201, 164, 0.87);
+    margin: 35px;
+    width: 17rem;
+    border-radius: 10px;
+    display: inline-block;
+    transition: all 400ms ease;
+    box-sizing: content-box;
+    min-height: 150px;
+    border-color:aqua;
+    border-width: 1.5px;
+    border-style: solid;
+}
+.CardContainer:hover {
+    box-shadow: 20px 20px 20px rgb(0, 0, 0, 0, 4);
+    transform: translateY(-3%);
+  }
+  
+  .nameStyle {
+    font-family: "Sofia", cursive;
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  .typeStyle {
+    list-style-type: none;
+    color: black;
+    text-decoration-line: none;
+    /* display: inline; */
+    /* padding-left: 3px;
+    padding-right: 3px; */
+    font-family: "Merienda", cursive;
+    text-decoration: none;
+  }
+
+  .idStyle{
+    color: black;
+    font-family: 'Times New Roman';
+  }
+
+  ul li {
+    text-decoration-line: none;
+    list-style-type: none;
+    text-align: center;
+    align-content: center;
+  }
+  .default-image {
+    background-image: url('../../image/sombraPikachu.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+ 
+  
+  
+  
+  
+  

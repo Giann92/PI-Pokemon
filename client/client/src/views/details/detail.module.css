@@ -1,0 +1,112 @@
+.container {
+  background-color: black;
+  height: 100%;
+
+
+}
+
+.pokemonDetail {
+  border: 6px solid #272727;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(175, 175, 175, 0.2);
+  height: 100%;
+
+}
+
+.pokemonDetailName {
+  font-family: "PokemonFont", cursive;
+  font-size: 54px;
+  color: #1b1a1a;
+  text-shadow: 2px 2px 4px rgb(41, 61, 214);
+  margin-top: -10px;
+}
+
+.nameType {
+  font-family: "PokemonFont", cursive;
+  font-size: 24px;
+  text-shadow: 2px 2px 4px rgb(41, 61, 214);
+  margin-top: -10px;
+
+}
+
+.pokemonDetail__name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #b6adad;
+  margin-bottom: 10px;
+}
+
+.pokemonDetail__image {
+  float: left;
+  width: 300px;
+  height: 300px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.progressBar {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.progressBar__stat {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.progressBar__label {
+  font-weight: bold;
+  margin-right: 10px;
+  color: #ffcc00;
+}
+
+.progressBar__fill {
+  height: 15px;
+  background-color: #c40a0a;
+  border-radius: 8px;
+  position: relative;
+}
+
+.progressBar__number {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-weight: bold;
+}
+
+/* Efecto de animación para la barra de progreso */
+.progressBar__fill {
+  transition: width 0.3s ease-in-out;
+}
+
+.progressBar__fill:hover {
+  background-color: #ff9900;
+}
+
+div>a {
+  color: #ffcc00;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+div>a:hover {
+  color: #ff9900;
+}
+
+/* Estilos para el botón de cierre */
+.pokemonDetail__closeBtn {
+  background-color: #ff3333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.pokemonDetail__closeBtn:hover {
+  background-color: #cc0000;
+}
